@@ -29,8 +29,8 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 ## Packages (Python/Tensorflow/CUDA/CuDNN/NVIDIA Driver)
 - Python = 3.8 (anaconda3)
 - Tensorflow = 2.7.0
-- CUDA = 11.5
-- CuDNN = 8.3.3 or 8.3.0
+- CUDA = 11.5 (default on Ubuntu 22.04)
+- CuDNN = 8.3.0 or 8.3.3
 - NVIDIA Driver = nvidia-driver-470
 
 ## Procedure
@@ -52,12 +52,12 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 #### 4) Remove cuda and nvidia
 - sudo apt-get remove --purge '^nvidia-.*'
 - sudo apt-get autoremove --purge 'cuda*'
-- (Not sure, but you may not need to remove cuda since it is 11.5 already.)
-
+- (*You don't need to remove 'cuda*')
 
 #### 5) Install CUDA=11.5
 - Find here: https://developer.nvidia.com/cuda-11-5-0-download-archive
 - whereis cuda
+- No need to do this, instead, sudo 
 
 
 #### 7) Install cuDNN=8.3.3 or 8.3.0
