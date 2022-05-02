@@ -79,7 +79,7 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 #### 9) Install NVIDIA Driver
 - sudo apt-get -y install ubuntu-drivers-common
 - ubuntu-drivers devices
-Here, you will see the list of nvidia-driver and 'recommended' one, for me it is nvidia-driver-510. But ignore it and install 'nvidia-driver-470'.
+- Here, you will see the list of nvidia-driver and 'recommended' one, for me it is nvidia-driver-510. But ignore it and install 'nvidia-driver-470'.
 - sudo apt install -y nvidia-driver-470
 
 
