@@ -30,7 +30,7 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 - Python = 3.8 (anaconda3)
 - Tensorflow = 2.7.0
 - CUDA = 11.5
-- CuDNN = 8.3.3
+- CuDNN = 8.3.3 or 8.3.0
 - NVIDIA Driver = nvidia-driver-470
 
 ## Procedure
@@ -60,7 +60,7 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 - whereis cuda
 
 
-#### 7) Install cuDNN=8.3.3
+#### 7) Install cuDNN=8.3.3 or 8.3.0
 - Find here: https://developer.nvidia.com/rdp/cudnn-archive
 - tar -xvzf (filename)
 - sudo cp cuda/inlude/cudnn.h /usr/lib/cuda/include/
