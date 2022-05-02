@@ -52,6 +52,7 @@ So I tried again with Ubuntu 22.04 and now, it works! After long hours over the 
 #### 4) Remove cuda and nvidia
 - sudo apt-get remove --purge '^nvidia-.*'
 - sudo apt-get autoremove --purge 'cuda*'
+- (Not sure, but you may not need to remove cuda since it is 11.5 already.)
 
 
 #### 5) Install CUDA=11.5
