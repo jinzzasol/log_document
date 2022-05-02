@@ -103,5 +103,7 @@ Here, you will see the list of nvidia-driver and 'recommended' one, for me it is
 - I don't know how other graphics drivers work with Tensorflow on Ubuntu 22.04 or 20.04. If you have no issue, then it is good for you.
 - It is true that yet there is no officially stated version of Tensorflow for CUDA version > 11.2.
 - After the set-up, I tested the tensorflow with this [code example](https://www.tensorflow.org/tutorials/quickstart/beginner), and it worked perfectly.
+- There might be an issue, nothing has shown up yet.
+- Again, I'm just a low level user of Ubuntu and Tensorflow, so this might not be the best way.
 
 Cheers.
