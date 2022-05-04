@@ -2,6 +2,8 @@
 
 Here I'm making a note to record/share how I enabled Tensorflow (GPU) on Ubuntu 22.04 (or 20.04).
 
+# Do Not Follow This. Something went wrong and Tensorflow doesn't use GPU.
+
 ## Motivation
 Recently, I started to use Linux OS (Ubuntu) for my PhD research because of the following reasons:
 1) Linux looks intersting and cool.
